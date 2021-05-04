@@ -1,0 +1,14 @@
+The geographic coordinates of bounding boxes for Sydney:
+
+
+
+
+Old version:	150.891811,-34.012448,151.318361,-33.66954
+
+New Version: 	150.2608,-34.1732,151.3427,-33.3641
+
+
+'
+Los Angeles:	-118.9517,32.7969,-116.6002,34.8233
+
+osmosis --read-pbf file=a.osm.pbf --bounding-box left=-118.9517  bottom=32.7969 right=-116.6002 top=34.8233 --write-pbf file=la.pbf

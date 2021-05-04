@@ -1,1 +1,0 @@
-jython -Dpython.path=otp.jar travel-time.py
